@@ -1,0 +1,1021 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Sansation;
+
+    }
+
+  .quran-ayat {
+     font-size: 2rem;
+    margin: 0;
+   background-color: #d1d4d74d;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+    
+    color: #739ee3;
+           margin-top: 3%;
+           width: 100%;
+            height: 90vh; 
+            margin-bottom: 3%;
+
+}
+
+.quran-ayat h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.quran-ayat p {
+    font-size: 1.2rem;
+    
+    margin-bottom: 1.5rem;
+}
+
+.quran-ayat span {
+    font-size: 1rem;
+    font-size: smaller;
+}
+
+    
+
+    /* Navbar */
+   
+    /* Navbar background */
+
+  
+  /* Hero Section */
+.hero {
+  background: linear-gradient(#6d6cca6c, #2c29c26c), url('/images/home-1.jpeg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertical center */
+  align-items: center;       /* horizontal center */
+  text-align: center;
+  padding: 0 15px;
+  margin-top: 100px;
+}
+
+.heading-1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.hero h4 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.hero-text {
+  max-width: 700px;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.btn-0 {
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #1e3758;
+  font-size: 1.1rem;
+  border: 2px solid #106ef1f5;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.btn-0:hover {
+  background-color: #3862a1;
+  color: white;
+}
+
+@media (max-width: 1100px) {
+  .heading-1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .hero h4 {
+    font-size: 1.2rem;
+  }
+  .hero-text {
+    width: 90%;
+    font-size: 1rem;
+  }
+  .btn-0 {
+    width: auto;
+    font-size: 1rem;
+  }
+}
+
+
+.fourth-bg {
+    background: linear-gradient(#6d6cca6c, #2c29c26c), url('/images/home-3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+@media screen and (max-width: 576px) {
+}
+
+.last-part {
+    padding: 60px 20px;
+    font-size: 2rem;
+    padding: 0 10%;
+    padding-top: 15%;
+    margin-top: 6%;
+}
+
+.last-part p {
+    line-height: 1.8;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.last-part h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .last-part {
+        font-size: 1.25rem;
+        padding: 80px 60px;
+    }
+    .last-part h2 {
+        font-size: 2rem;
+    }
+}
+
+/* footer */
+.footer-bg {
+    background-color: #2f4c73;
+    color: white;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.footer-bg h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.footer-bg p,
+.footer-bg li,
+.footer-bg a {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer-link {
+    color: #dbe4f0;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #318bffd7;
+    text-decoration: none;
+}
+
+iframe {
+    border-radius: 8px;
+    width: 100%;
+    height: 150px;
+}
+
+/* Scroll to Top Button */
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    font-size: 20px;
+    background-color: #2f4c73;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+#scrollTopBtn:hover {
+    background-color: #395b87;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-bg h5 {
+        font-size: 1.1rem;
+    }
+    .footer-bg p,
+    .footer-bg li,
+    .footer-bg a {
+        font-size: 0.85rem;
+        text-align: center;
+    }
+    .footer-bg .row > div {
+        text-align: center;
+    }
+    iframe {
+        height: 200px;
+    }
+}
+
+/* another css */
+/* Navbar customization */
+/* for staff */
+
+    .custom-navbar {
+      background: transparent;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      transition: background-color 0.3s ease;
+    }
+
+    .nav-on-scroll {
+      background-color: #1e3758 !important; /* dark blue on scroll */
+    }
+    .card-img-staff {
+    background: transparent;
+     border: 2px solid rgba(18, 14, 248, 0.5);
+     border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+  /* Dropdown background and item default styles */
+.dropdown-menu {
+  background-color: #2f4c73; /* Your deep blue */
+}
+
+.dropdown-menu .dropdown-item {
+  color: white; /* Set default text color to white for better contrast on the deep blue background */
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #1d345a; /* A darker blue for hover background */
+  color: white; /* Keep text color white on hover for consistency and readability */
+}
+
+/* --- Navbar Base Styles --- */
+.custom-navbar {
+  background-color: #2f4c73; /* Your deep blue */
+}
+
+.custom-navbar .nav-link {
+  color: white !important; /* Default color for nav links */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Navbar link on hover */
+.custom-navbar .nav-link:hover {
+  /* You mentioned you wanted "related color" here too.
+     If you want the inverted behavior (background changes to link color and link color changes to background color),
+     you'll need to define what those "related colors" are.
+     For now, I'll assume you want the text to become a different color on hover,
+     and the background to remain transparent or change slightly. */
+  color: #327ee2fd !important; /* Gold on hover, for example */
+  /* If you want a background change on hover, uncomment and adjust this: */
+  /* background-color: #1d345a; */
+}
+
+/* --- Scrolled Navbar Styles --- */
+.nav-on-scroll {
+  background-color: #2f4c73 !important;
+}
+
+
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 0;
+}
+
+.nav-container li,a {
+  list-style: none;
+  color: #007bff;
+}
+.nav-container a:hover {
+  
+  color: blueviolet;
+}
+
+.nav-container a {
+  padding: 10px 20px;
+  display: block;
+  margin: 5px;
+}
+
+@media (max-width: 768px) {
+  .nav-container a {
+    padding: 8px 16px;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-container a {
+    padding: 6px 12px;
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+  
+.social-icons {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+ color: white;
+ text-decoration: none;
+  position: relative;
+}
+
+.social-icons .a-1:hover[title]:hover:after {
+  content: attr(title);
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  padding: 5px;
+  background-color: #4867aa;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  
+}
+.social-icons .a-2:hover[title]:hover:after {
+  content: attr(title);
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  padding: 5px;
+  background:#33d955;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.social-icons .a-3:hover:hover[title]:hover:after {
+  content: attr(title);
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  padding: 5px;
+  background-color: #1da1f2;
+
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.social-icons .a-4:hover[title]:hover:after {
+  content: attr(title);
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  padding: 5px;
+   background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+
+.social-icons .a-1:hover {
+  background-color: #4867aa;
+  
+  color: white;
+}
+
+.social-icons .a-2:hover {
+  background-color: #33d955;
+  
+  color: white;
+}
+
+.social-icons .a-3:hover {
+  background-color: #1da1f2;
+
+  color: white;
+}
+
+.social-icons .a-4:hover {
+  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+
+  color: white;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  
+  /* Ensure nav links are visible */
+}
+/* dropdown */
+.icon {
+  margin-right: 10px;
+
+  /* Ensure icons are visible */
+}
+
+
+  
+
+.btn-0 {
+  color: white;
+  border: 1px solid white;
+  box-shadow: none;
+}
+@media (max-width: 768px) {
+  .social-icons {
+    justify-content: center !important;
+  }
+}
+/* for staff pages  */
+
+.intro-section {
+  background-color: #f8f9fa; /* light grey background */
+  padding: 40px 0;
+  border-radius: 10px;
+}
+
+.text-section h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #2f4c73; /* deep blue-ish */
+}
+
+.text-section p {
+  font-family: 'Quicksand', sans-serif;
+  color: #567796;
+  font-weight: 600;
+}
+
+.image-section {
+  gap: 15px;
+}
+
+/* .team-img {
+  width: 75%;
+ padding-top: 80px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+} */
+
+
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-top: 40px;}}
+
+        .pricing-section {
+  background-color: #5380c1;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.pricing-header {
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 30px;
+}
+
+/* General Card */
+/* ===== Base Card Styling (applies to all cards) ===== */
+.card,
+.doctor-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.card:hover,
+.doctor-card:hover {
+  transform: translateY(-5px);
+}
+
+/* ===== Doctor Card Styling ===== */
+.doctor-card {
+  background: linear-gradient(135deg, #fdfdfd, #f7f7f7);
+  border-left: 5px solid #edc315;
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.doctor-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;      /* round image */
+  margin: 15px auto;
+  display: block;
+  border: 4px solid #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+.receptationist-img {
+  width: 180px;           /* same size as other cards */
+  /* aspect-ratio: 1/1;      keeps square shape */
+  /* object-fit: cover;      fills without distortion */
+  
+ max-width: 300px;
+  border-radius: 50%;      /* round image */
+  margin: 15px auto;
+  display: block;
+  border: 4px solid #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 768px) {
+  .doctor-img {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 576px) {
+  .doctor-img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.doctor-name {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.doctor-specialty {
+  color: #5380c1;
+  font-style: italic;
+  margin: 5px 0;
+  font-weight: 600;
+}
+
+.doctor-info {
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+/* ===== Regular Pricing / Service Cards ===== */
+.card-body {
+  padding: 20px;
+}
+
+.card-title-label {
+  font-weight: 800;
+  font-size: 1.5rem;
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #333;
+}
+
+.card-price {
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: 700;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.card-img {
+  max-width: 150px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+/* ===== Utility for Equal Height Layouts ===== */
+.equal-height {
+  display: flex;
+  align-items: stretch;
+}
+
+
+
+
+
+@media (max-width: 1100px) {
+    h1, h4 {
+        
+        font-size: 1.8rem;
+        text-align: left;
+    }}
+    /* .card {
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+.card img{
+  margin-left: 25%;
+}
+.card span{
+  font-size: xx-large;
+  font-weight: 800;
+  text-align: center;
+}
+.card h1 {
+ text-align: center;
+} */
+
+
+/*  */
+/*  */
+/* suger ,ecg,bp page */
+
+/*  */
+.section-padding2{
+  background-color: #e0f2f7;
+  margin-bottom:60px;
+}
+.section-padding1{
+  margin-bottom: 60px;
+}
+.img-bp,.diabetes-image{
+  
+ padding-top: 120px;
+ 
+ 
+}
+  .card-1 {
+    
+  
+  border: 1px solid #226bb4;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex: 1 1 auto;
+}
+
+.card-1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-body-1 {
+  padding: 1rem;
+}
+
+.card-title-1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #2f4c73; /* matches your footer theme */
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #333;
+}
+.img-fluid-1{
+  margin-top: 130px;
+  height: auto;
+  max-width: 100%;
+  
+}
+
+@media (min-width: 768px) {
+     h2 {
+        /* font-size: 2rem; */
+        padding-top: 150px;
+        
+    }}
+  
+     @media (max-width: 768px) {
+     h2 {
+        /* font-size: 2rem; */
+       
+        font-weight: 700;
+         padding-top: 150px;
+    }}
+    .d-flex {
+    display: flex !important;
+;
+    padding-bottom: 40px;
+}
+
+/* contact-us */
+
+
+ 
+
+.contact-form {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.btn-1{
+  background-color: #2f4c73;
+  color: white;
+}
+.btn-1:hover {
+  background-color: #395b87;
+  color: white;
+}
+/* /* in the memory * */
+
+.memory-section {
+  padding: 100px 15px 60px; /* push down from navbar */
+  background: #fdfdfd;
+  text-align: center;
+}
+
+.memory-heading {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2f4c73;
+}
+
+.memory-subheading {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+.memory-image,
+.memory-image-large {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Animation styles */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in-up {
+  animation: fadeInUp 1s ease forwards;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease forwards;
+}
+
+.delay-1 { animation-delay: 0.3s; }
+.delay-2 { animation-delay: 0.6s; }
+.delay-3 { animation-delay: 0.9s; }
+
+/* Responsive typography */
+@media (max-width: 767.98px) {
+  .memory-heading {
+    font-size: 1.8rem;
+  }
+
+  .memory-subheading,
+  blockquote,
+  .lead {
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .part-2 {
+    display: none;
+  }}
+  /* Show part-1 only on small and medium screens */
+/* @media (min-width: 992px) {
+  .part-1 {
+    display: none !important;
+  }
+}
+
+/* Show part-2 only on large and above */
+/* @media (max-width: 991.98px) {
+  .part-2 {
+    display: none !important;
+  }
+} */ */
+
+
+
+/* for about us page  */
+.custom-navbar {
+            background-color: #1e3758;
+            padding: 15px 0;
+        }
+        
+        .navbar-brand img {
+            height: 100px;
+            transition: all 0.3s ease;
+        }
+        .navbar-brand img {
+    filter: brightness(0) invert(1); /* turns dark to white */
+}
+
+        
+        .nav-link {
+            color: white !important;
+            font-weight: 500;
+            padding: 8px 20px !important;
+        }
+        
+        .nav-link:hover, .nav-link.active {
+            color: #327ee2fd !important;
+        }
+        
+        /* About Content Section */
+        .about-section {
+            padding: 80px 0;
+        }
+        
+        .about-text {
+            padding-right: 40px;
+        }
+        
+        .about-text h2 {
+            color: #3e4095;
+            font-weight: 700;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        
+        .about-text h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 80px;
+            height: 4px;
+            background-color: #799ed1;
+        }
+        
+        .about-text p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .dispensary-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .dispensary-logo img {
+            max-width: 100%;
+            height: auto;
+            filter: drop-shadow(0 5px 15px rgba(0,0,0,0.1));
+        }
+        
+        /* Objective Section */
+        .objective-section {
+            background-color:#f8f9fa;
+            padding: 60px 0;
+        }
+        
+        .objective-card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            height: 100%;
+        }
+        
+        .objective-card h3 {
+            color: #3e4095;
+            margin-bottom: 20px;
+        }
+        
+        /* Owner Message */
+        .owner-message {
+            background: linear-gradient(#327ee2fd , #6a9adafd ), url('/images/about-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 80px 0;
+            color: white;
+        }
+        
+        .owner-message h2 {
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+        
+        .owner-message p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 992px) {
+            .about-text {
+                padding-right: 0;
+                margin-bottom: 40px;
+            }
+            
+            .dispensary-logo {
+                margin-bottom: 40px;
+            }
+        }
+
+        /* for heamoglobin page */
+           .img-hb {
+            max-height: 400px;
+            margin-top: 120px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .card-1 {
+            
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .card-1:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .card-title-1 {
+            color: #2f4c73;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .section-hb-bg {
+            
+            padding: 80px 0;
+        }

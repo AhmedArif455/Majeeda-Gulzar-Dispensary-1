@@ -1,0 +1,30 @@
+ /*card resposniveness  */
+ 
+ @media (max-width: 1100px) {
+    h1, h4 {
+        margin-left: 80px;
+        font-size: 1.8rem;
+        margin-right: 70px;
+    }}
+
+   /* .pricing section  */
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-top: 40px;}}
+
+        .pricing-section {
+  background-color: #5380c1;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* social icons */
+
+   @media (max-width: 768px) {
+  .social-icons {
+    justify-content: center !important;
+  }
+}
+/*  */

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact-us - Majeeda Gulzar Free Dispensary</title>
+  <link rel="shortcut icon" href="../images/logo-removebg-preview 1.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gurmukhi:wght@100..900&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="/images/logo-removebg-preview.png" alt="Majeeda Gulzar Free Dispensary">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="advancedDropdown">
+              <!-- <li><a class="dropdown-item text-white" href="staff.html">Staff</a></li> -->
+              <li><a class="dropdown-item text-white" href="blood-pressure.html">Hypertension Monitor</a></li>
+              <li><a class="dropdown-item text-white" href="ecg.html">Cardiac Monitor</a></li>
+              <li><a class="dropdown-item text-white" href="sugar.html">Diabetes</a></li>
+              <li><a class="dropdown-item text-white" href="hemoglobin.html">Hemoglobin</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="about-us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="in-the-memory.html">Memory</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-5">
+    <div class="text-center mb-4 mt-5">
+      <h2 class="fw-bold">Contact Majeeda Gulzar Free Dispensary</h2>
+      <p>Reach us via WhatsApp or Email using this form</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+              <div id="nameError" class="error-message">Please enter your name</div>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea id="message" class="form-control" rows="4" placeholder="Write your message" required></textarea>
+              <div id="messageError" class="error-message">Please enter your message</div>
+            </div>
+
+            <div class="d-grid gap-2">
+              <!-- WhatsApp Button -->
+              <button type="button" class="btn btn-success" onclick="sendToWhatsApp()">
+                <i class="fab fa-whatsapp"></i> Send via WhatsApp
+              </button>
+
+              <!-- Email Button -->
+              <button type="button" class="btn btn-1" onclick="sendEmail()">
+                <i class="fas fa-envelope"></i> Send via Email
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer-bg pt-5 pb-3 text-white fade-in">
+    <div class="container">
+      <div class="row text-md-start text-center">
+
+        <!-- Column 1: Our Mission -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold">Our Mission</h5>
+          <p class="small">
+            With the mercy of Allah (SWT), this dispensary is dedicated to offering free and compassionate healthcare.
+            We aim to serve all individuals with dignity and sincere care.
+          </p>
+
+          <!-- Social Icons placed here -->
+          <div class="social-icons mt-3 text-white text-center">
+            <a href="https://www.facebook.com/profile.php?id=61579104184971#" class="footer-icon a-1"
+              title="Facebook"><i class="fab fa-facebook-f fa-lg"></i></a>
+            <a href="https://wa.me/923312624225" class="footer-icon a-2" title="WhatsApp"><i
+                class="fab fa-whatsapp fa-lg "></i></a>
+            <a href="mailto:info@majeedagulzardispensary@gmail.com" class="footer-icon a-3" title="Email"><i
+                class="fas fa-envelope fa-lg"></i></a>
+            <a href="https://www.instagram.com/majeedagulzardispensary/" class="footer-icon a-4" title="Instagram"><i
+                class="fa-brands fa-instagram fa-lg"></i></a>
+
+          </div>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold">Quick Links</h5>
+          <ul class="list-unstyled small">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about-us.html" class="footer-link">About Us</a></li>
+            <li><a href="in-the-memory.html" class="footer-link">Memory</a></li>
+            <li><a href="contact-us.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Contact Info -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold">Contact</h5>
+          <p class="small mb-1">Majeeda Gulzar Free Dispensary</p>
+          <p class="small mb-1">Shahdoula Darbar, Gujrat</p>
+          <p class="small mb-1">Phone: <a href="tel:0331-2624225" class="footer-link">+92331-2624225</a></p>
+          <p class="small mb-3">Email: <a href="mailto:majeedagulzardispensary@gmail.com"
+              class="footer-link">majeedagulzardispensary@gmail.com</a></p>
+        </div>
+
+        <!-- Column 4: Google Map -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold">Our Location</h5>
+          <iframe src="https://www.google.com/maps?q=Shahdoula+Darbar+Gujrat&output=embed" width="100%" height="150"
+            style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+      </div> <!-- end row -->
+
+      <hr class="border-light" />
+      <div class="text-center small">
+        &copy; 2025 Majeeda Gulzar Free Dispensary. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollTopBtn" title="Go to top">&#8679;</button>
+
+</body>
+
+<script src="https://kit.fontawesome.com/b13a95ce60.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="../js/src.js"></script>
+</body>
+
+</html>
