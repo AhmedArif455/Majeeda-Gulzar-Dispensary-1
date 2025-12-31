@@ -57,7 +57,7 @@
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+background-size: cover; 
   display: flex;
   flex-direction: column;
   justify-content: center;   /* vertical center */
@@ -65,7 +65,18 @@
   text-align: center;
   padding: 0 15px;
   margin-top: 100px;
+  
 }
+@media (max-width: 576px) {
+  .hero {
+    height: 100vh;
+    background-size: contain;   /* FULL image visible */
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0;
+  }
+}
+
 
 .heading-1 {
   font-size: 3rem;
@@ -121,6 +132,7 @@
 }
 
 
+
 .fourth-bg {
     background: linear-gradient(#6d6cca6c, #2c29c26c), url('/images/home-3.jpeg');
     background-repeat: no-repeat;
@@ -130,6 +142,7 @@
 }
 
 @media screen and (max-width: 576px) {
+
 }
 
 .last-part {
